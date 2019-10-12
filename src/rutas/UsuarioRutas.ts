@@ -1,4 +1,6 @@
+// Modulos de Express
 import { Request, Response, NextFunction, Router} from 'express';
+// Esquema de documento Usuario
 import Usuario from '../modelos/Usuario';
 
 class UserRouter {
